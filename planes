@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planes ChronoLab | WebArte-Tech</title>
+  <meta name="description" content="Conocé los planes de ChronoLab para registro y gestión de asistencia empresarial." />
+  <style>
+    :root { --bg:#07111f; --card:#101c2b; --card2:#0c1725; --text:#f4f7fb; --muted:#aeb9c8; --accent:#77d39a; --line:#26384e; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:linear-gradient(180deg,#06101d,#0a1422); color:var(--text); }
+    .wrap { max-width:1120px; margin:auto; padding:48px 20px 64px; }
+    header { text-align:center; margin-bottom:34px; }
+    .brand { font-size:15px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); font-weight:700; }
+    h1 { font-size:clamp(32px,5vw,52px); margin:12px 0 14px; }
+    .lead { max-width:760px; margin:auto; color:var(--muted); font-size:18px; line-height:1.6; }
+    .launch { display:inline-block; margin-top:18px; padding:8px 14px; border:1px solid var(--line); border-radius:999px; color:#d8e1ec; font-size:14px; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:38px; }
+    .card { background:rgba(16,28,43,.96); border:1px solid var(--line); border-radius:18px; padding:26px; display:flex; flex-direction:column; min-height:560px; }
+    .card.featured { border:1px solid var(--accent); box-shadow:0 0 0 1px rgba(119,211,154,.15),0 18px 50px rgba(0,0,0,.18); }
+    .tag { color:var(--accent); font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
+    h2 { margin:8px 0 4px; font-size:27px; }
+    .price { font-size:30px; font-weight:800; margin:14px 0 3px; }
+    .price small { font-size:14px; font-weight:400; color:var(--muted); }
+    .desc { color:var(--muted); min-height:54px; line-height:1.5; }
+    ul { padding-left:20px; line-height:1.65; color:#dce4ee; }
+    li::marker { color:var(--accent); }
+    .spacer { flex:1; }
+    .btn { display:block; text-align:center; padding:13px 16px; border-radius:10px; border:1px solid var(--accent); color:var(--text); text-decoration:none; font-weight:700; margin-top:16px; }
+    .btn:hover { background:rgba(119,211,154,.1); }
+    .note { margin-top:34px; background:var(--card2); border:1px solid var(--line); border-radius:16px; padding:24px; text-align:center; }
+    .note h3 { margin-top:0; }
+    .note p { color:var(--muted); line-height:1.6; }
+    footer { text-align:center; color:#8695a8; margin-top:32px; font-size:13px; }
+    @media (max-width:900px){ .grid{grid-template-columns:1fr;} .card{min-height:auto;} .desc{min-height:auto;} }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="brand">ChronoLab · WebArte-Tech</div>
+      <h1>Elegí el plan que mejor se adapta a tu empresa</h1>
+      <p class="lead">Registro de asistencia, ubicación, control operativo y herramientas de gestión en una solución pensada para empresas.</p>
+      <div class="launch">Precios de lanzamiento · Octubre 2026</div>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <div class="tag">Para conocer ChronoLab</div>
+        <h2>Prueba</h2>
+        <div class="price">Gratis <small>por 30 días</small></div>
+        <p class="desc">Probá el flujo completo de fichadas antes de elegir un plan comercial.</p>
+        <ul>
+          <li>1 administrador</li><li>1 supervisor</li><li>1 empleado</li><li>1 ubicación permitida</li>
+          <li>Fichadas online y offline</li><li>GPS y validación de zona</li><li>Comentarios e historial básico</li>
+        </ul>
+        <div class="spacer"></div>
+        <a class="btn" href="mailto:webarte.tech@gmail.com?subject=Consulta%20ChronoLab%20-%20Plan%20Prueba">Consultar</a>
+      </article>
+
+      <article class="card featured">
+        <div class="tag">Solo App Android</div>
+        <h2>Profesional</h2>
+        <div class="price">AR$ 350.000 <small>pago único</small></div>
+        <p class="desc">Para empresas que necesitan fichadas y control completo desde el teléfono.</p>
+        <ul>
+          <li>Hasta 5 administradores</li><li>Hasta 5 supervisores</li><li>Empleados sin límite</li><li>Ubicaciones sin límite</li>
+          <li>Fichadas online y offline</li><li>GPS y control fuera de zona</li><li>Comentarios y diagnósticos</li>
+          <li>Dispositivos sospechosos</li><li>Historial desde la app</li><li>Exportación Excel/CSV</li><li>Gestión de empleados</li><li>Actualizaciones desde Play Store</li>
+        </ul>
+        <div class="spacer"></div>
+        <a class="btn" href="mailto:webarte.tech@gmail.com?subject=Consulta%20ChronoLab%20-%20Plan%20Profesional">Consultar Plan Profesional</a>
+      </article>
+
+      <article class="card">
+        <div class="tag">App + Admin Web</div>
+        <h2>Enterprise</h2>
+        <div class="price">AR$ 750.000 <small>pago único</small></div>
+        <p class="desc">La solución completa para gestión, análisis y auditoría centralizada.</p>
+        <ul>
+          <li>Todo el Plan Profesional</li><li>Hasta 5 administradores</li><li>Supervisores sin límite</li><li>Empleados sin límite</li>
+          <li>ChronoLab Admin Web</li><li>Dashboard y presentismo mensual</li><li>Calendario laboral, feriados y jornadas reducidas</li>
+          <li>Licencias y vacaciones</li><li>Análisis por empleado e incidencias</li><li>Auditoría y reportes por período</li>
+          <li>Exportación Excel completa</li><li>Gestión web de ubicaciones, usuarios y permisos</li><li>Historial centralizado e integraciones futuras</li>
+        </ul>
+        <div class="spacer"></div>
+        <p><strong>Soporte + informes opcional:</strong><br>AR$ 90.000/mes</p>
+        <a class="btn" href="mailto:webarte.tech@gmail.com?subject=Consulta%20ChronoLab%20-%20Plan%20Enterprise">Consultar Plan Enterprise</a>
+      </article>
+    </section>
+
+    <section class="note">
+      <h3>¿Necesitás ayuda para elegir?</h3>
+      <p>Contanos cuántas personas trabajan en tu empresa y qué nivel de gestión necesitás. Te ayudamos a elegir la opción adecuada.</p>
+      <a class="btn" href="mailto:webarte.tech@gmail.com?subject=Consulta%20comercial%20ChronoLab">Contactar a WebArte-Tech</a>
+    </section>
+
+    <footer>ChronoLab · WebArte-Tech · Argentina · Precios de lanzamiento vigentes desde octubre de 2026.</footer>
+  </main>
+</body>
+</html>
