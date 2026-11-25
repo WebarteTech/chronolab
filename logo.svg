@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ChronoLab">
+  <rect width="64" height="64" rx="14" fill="#1e2a38"/>
+  <circle cx="30" cy="31" r="17" fill="none" stroke="#fff" stroke-width="5"/>
+  <path d="M30 20v12h8" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 14.5v2.5M30 45v2.5M13.5 31h2.5M44 31h2.5" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M40 47l5.5 5.5L56 42" fill="none" stroke="#1faa3d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
