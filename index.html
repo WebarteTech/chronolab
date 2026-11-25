@@ -3,139 +3,292 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Información legal y de privacidad de ChronoLab, desarrollado por WebArte-Tech.">
-  <title>ChronoLab | WebArte-Tech</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+  <title>ChronoLab | Control de asistencia con ubicación verificada</title>
+  <meta name="description" content="ChronoLab registra la asistencia de tu personal desde Android, con validación de ubicación y fichadas sin conexión, y la gestiona desde una plataforma web. Probalo gratis 30 días.">
+  <link rel="canonical" href="https://chronolab.webartetech.com/">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <meta name="theme-color" content="#0d1a27">
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0d1117;
-      color: #e6edf3;
-      line-height: 1.6;
-    }
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="ChronoLab">
+  <meta property="og:url" content="https://chronolab.webartetech.com/">
+  <meta property="og:title" content="ChronoLab | Control de asistencia con ubicación verificada">
+  <meta property="og:description" content="Fichadas desde Android con GPS y sin conexión, y gestión del personal desde la web. Probalo gratis 30 días.">
+  <meta property="og:image" content="https://chronolab.webartetech.com/img/og-chronolab.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
 
-    header {
-      padding: 70px 24px 45px;
-      text-align: center;
-      border-bottom: 1px solid #30363d;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      color: #9da7b3;
-      margin-top: 10px;
-      font-size: 1.1rem;
-    }
-
-    main {
-      max-width: 850px;
-      margin: auto;
-      padding: 45px 24px 70px;
-    }
-
-    .intro {
-      margin-bottom: 35px;
-    }
-
-    .card {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 12px;
-      padding: 25px;
-      margin: 20px 0;
-    }
-
-    .card h2 {
-      margin-top: 0;
-    }
-
-    a {
-      color: #58a6ff;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 8px;
-      padding: 10px 18px;
-      border: 1px solid #58a6ff;
-      border-radius: 7px;
-      text-decoration: none;
-      color: #58a6ff;
-    }
-
-    footer {
-      border-top: 1px solid #30363d;
-      text-align: center;
-      padding: 25px;
-      color: #8b949e;
-      font-size: 0.9rem;
-    }
-  </style>
+  <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
 
-<header>
-  <h1>ChronoLab</h1>
-  <p>Gestión y registro de asistencia empresarial</p>
+<header class="barra">
+  <div class="contenedor">
+    <a class="marca" href="./" aria-label="ChronoLab, inicio">
+      <img src="logo.svg" alt="">
+      <span>Chrono<b>Lab</b></span>
+    </a>
+    <nav class="menu" aria-label="Secciones">
+      <a href="#funciones">Funciones</a>
+      <a href="#planes">Planes</a>
+      <a href="#preguntas">Preguntas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="boton boton-primario boton-chico" href="https://play.google.com/store/apps/details?id=com.chronolab.app" target="_blank" rel="noopener">Descargar</a>
+  </div>
 </header>
 
 <main>
 
-  <section class="intro">
-    <h2>Información sobre ChronoLab</h2>
-    <p>
-      ChronoLab es una aplicación desarrollada por WebArte-Tech para el
-      registro y gestión de asistencia de personal en organizaciones y empresas.
-    </p>
-    <p>
-      En esta página podés consultar la información relacionada con la
-      privacidad y el tratamiento de datos de la aplicación.
-    </p>
+  <section class="portada">
+    <div class="contenedor">
+      <span class="etiqueta">Control · Asistencia · Confianza</span>
+      <h1>La asistencia de tu equipo, <span>registrada donde corresponde.</span></h1>
+      <p class="bajada">
+        Tu personal ficha desde Android con validación de ubicación, incluso sin conexión.
+        Vos revisás, corregís y analizás todo desde una plataforma web pensada para la operación diaria.
+      </p>
+      <div class="acciones">
+        <a class="boton boton-primario" href="https://play.google.com/store/apps/details?id=com.chronolab.app" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 2.8v18.4c0 .5.5.8 1 .6l15.4-8.6c.5-.3.5-1 0-1.3L5 3.1c-.5-.2-1 .1-1 .7z"/></svg>
+          Descargar en Google Play
+        </a>
+        <a class="boton boton-secundario" href="#planes">Ver planes</a>
+      </div>
+
+      <div class="portada-imagen">
+        <img src="img/chronolab-hero.jpg" width="1024" height="500" alt="ChronoLab en Android: ingreso con DNI, registro de entrada y salida con ubicación verificada, y panel del administrador.">
+      </div>
+
+      <div class="franja">
+        <div><strong>GPS</strong><span>Fichada dentro de la zona permitida</span></div>
+        <div><strong>OFFLINE</strong><span>Registro aun sin conexión</span></div>
+        <div><strong>AUDITORÍA</strong><span>Incidencias y fichadas a revisar</span></div>
+        <div><strong>ROLES</strong><span>Administrador, supervisor y empleado</span></div>
+      </div>
+    </div>
   </section>
 
-  <section class="card">
-    <h2>Política de Privacidad</h2>
-    <p>
-      Consultá qué información utiliza ChronoLab, con qué finalidad y cómo
-      protegemos los datos asociados al uso de la aplicación.
-    </p>
-    <a class="button" href="privacidad.html">Ver Política de Privacidad</a>
+  <section class="seccion" id="funciones">
+    <div class="contenedor">
+      <div class="seccion-titulo">
+        <span class="etiqueta">Funciones</span>
+        <h2>Del registro en la calle al control en la oficina.</h2>
+        <p>ChronoLab tiene dos partes que trabajan juntas: la app Android para fichar y gestionar, y la plataforma web para supervisar y administrar.</p>
+      </div>
+
+      <h3 class="subtitulo-grupo">App Android <small>TODOS LOS PLANES</small></h3>
+      <div class="rejilla">
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+          <h3>Fichada con ubicación</h3>
+          <p>Al registrar la entrada o la salida, la app verifica que la persona esté dentro de una ubicación autorizada por la empresa. Sin seguimiento continuo.</p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8.8a15 15 0 0 1 20 0M5 12.6a10 10 0 0 1 14 0M8.5 16.4a5 5 0 0 1 7 0"/><path d="M3 3l18 18"/></svg></div>
+          <h3>Funciona sin conexión</h3>
+          <p>Si no hay señal, la fichada queda guardada en el teléfono y se envía sola cuando vuelve la conexión.</p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+          <h3>Ingreso con DNI</h3>
+          <p>Cada persona entra con su DNI. Sin correos ni cuentas extra: el administrador da de alta al personal y listo.</p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>Prevención de fraudes</h3>
+          <p>Control de dispositivos y de precisión del GPS: las fichadas dudosas quedan marcadas para que alguien las revise.</p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5M12 7v5l3 2"/></svg></div>
+          <h3>Historial y panel</h3>
+          <p>El administrador ve quién fichó, quién no y quién está fuera de zona, con el historial de cada empleado.</p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></div>
+          <h3>Exportación a Excel</h3>
+          <p>Las fichadas se exportan desde el teléfono para liquidar sueldos o archivar.</p>
+        </article>
+      </div>
+
+      <h3 class="subtitulo-grupo">Plataforma web <small>PROFESIONAL Y ENTERPRISE</small></h3>
+      <div class="rejilla">
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+          <h3>Centro de Control</h3>
+          <p>Presentismo del mes, jornadas completas, fuera de zona y alertas del período, por empleado. <em>Enterprise.</em></p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3>Revisión de fichadas</h3>
+          <p>Aprobá o rechazá las fichadas observadas y corregí horarios, con registro de quién hizo cada cambio.</p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M8 15h3"/></svg></div>
+          <h3>Planificador de vacaciones</h3>
+          <p>Días por ley o acordados, quién se va y cuándo, cuántas personas faltan a la vez y un consolidado anual que se descarga en Excel. <em>Enterprise.</em></p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg></div>
+          <h3>Personal y configuración</h3>
+          <p>Altas, bajas, tipos operativos, horarios, sectores y ubicaciones permitidas, desde la computadora. <em>Enterprise.</em></p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></svg></div>
+          <h3>Calendario y novedades</h3>
+          <p>Feriados, jornadas reducidas, licencias y ausencias justificadas, para que el presentismo sea real. <em>Enterprise.</em></p>
+        </article>
+        <article class="tarjeta">
+          <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5M12 15V3"/></svg></div>
+          <h3>Exportaciones y reportes</h3>
+          <p>Fichadas y reportes por período, listos para sueldos o auditorías.</p>
+        </article>
+      </div>
+    </div>
   </section>
 
-  <section class="card">
-    <h2>Eliminación de Datos</h2>
-    <p>
-      Los usuarios pueden consultar el procedimiento para solicitar la
-      eliminación de sus datos asociados a ChronoLab.
-    </p>
-    <a class="button" href="eliminacion-datos.html">Solicitar eliminación de datos</a>
+  <section class="seccion seccion-alterna" id="planes">
+    <div class="contenedor">
+      <div class="seccion-titulo">
+        <span class="etiqueta">Planes</span>
+        <h2>Empezá gratis y elegí cuando lo conozcas.</h2>
+        <p>Precios en dólares estadounidenses. El plan anual tiene un 5 % de descuento.</p>
+      </div>
+
+      <div class="planes">
+        <article class="plan">
+          <span class="tipo">Para conocerlo</span>
+          <h3>Prueba</h3>
+          <p class="precio">Gratis <small>30 días</small></p>
+          <p class="para">Hasta 10 empleados. La prueba recorre los planes para que veas todo antes de decidir:</p>
+          <div class="etapas" style="grid-template-columns: 1fr;">
+            <div class="etapa"><b>Días 1 a 7</b><span>Todo Enterprise</span></div>
+            <div class="etapa"><b>Días 8 a 14</b><span>Como Profesional</span></div>
+            <div class="etapa"><b>Días 15 a 30</b><span>App Android completa y revisión de fichadas en la web</span></div>
+          </div>
+          <a class="boton boton-secundario" style="margin-top: 24px;" href="https://play.google.com/store/apps/details?id=com.chronolab.app" target="_blank" rel="noopener">Descargar y crear mi empresa</a>
+        </article>
+
+        <article class="plan">
+          <span class="tipo">Android + revisión web</span>
+          <h3>Profesional</h3>
+          <p class="precio">USD 24,99 <small>/ mes</small></p>
+          <p class="anual">o USD 284,89 por año · <b>ahorrás USD 14,99</b></p>
+          <p class="para">Para registrar, controlar, revisar y exportar fichadas.</p>
+          <ul class="lista">
+            <li>Empleados sin límite</li>
+            <li>App Android completa</li>
+            <li>GPS, zonas permitidas y fichadas sin conexión</li>
+            <li>Acceso a la plataforma web</li>
+            <li>Revisión, aprobación y corrección de fichadas</li>
+            <li>Exportación de fichadas</li>
+            <li>Mantenimiento y actualizaciones incluidos</li>
+          </ul>
+          <a class="boton boton-secundario" href="mailto:webarte.tech@gmail.com?subject=Consulta%20ChronoLab%20-%20Plan%20Profesional">Consultar</a>
+        </article>
+
+        <article class="plan plan-destacado">
+          <span class="tipo">Gestión completa</span>
+          <h3>Enterprise</h3>
+          <p class="precio">USD 149,99 <small>/ mes</small></p>
+          <p class="anual">o USD 1.709,89 por año · <b>ahorrás USD 89,99</b></p>
+          <p class="para">Para supervisar, analizar y administrar todo desde la web.</p>
+          <ul class="lista">
+            <li>Todo lo de Profesional</li>
+            <li>Centro de Control y análisis de presentismo</li>
+            <li>Planificador de vacaciones</li>
+            <li>Altas, bajas y configuración del personal</li>
+            <li>Calendario laboral, feriados y novedades</li>
+            <li>Ubicaciones y dispositivos</li>
+            <li>Supervisores sin límite y permisos por rol</li>
+            <li>Reportes por período</li>
+          </ul>
+          <a class="boton boton-primario" href="mailto:webarte.tech@gmail.com?subject=Consulta%20ChronoLab%20-%20Plan%20Enterprise">Consultar</a>
+        </article>
+      </div>
+
+      <p class="nota">
+        La contratación y el pago se hacen fuera de la app, por correo o WhatsApp. Las funciones disponibles dependen
+        del plan contratado y de los permisos de cada usuario. Detalle completo en la <a href="planes.html">página de planes</a>.
+      </p>
+    </div>
   </section>
 
-  <section class="card">
-    <h2>Contacto</h2>
-    <p>
-      Para consultas relacionadas con ChronoLab y la privacidad de los datos:
-    </p>
-    <p>
-      <strong>WebArte-Tech</strong><br>
-      Argentina<br>
-      <a href="mailto:webarte.tech@gmail.com">webarte.tech@gmail.com</a>
-    </p>
+  <section class="seccion" id="preguntas">
+    <div class="contenedor">
+      <div class="seccion-titulo">
+        <span class="etiqueta">Preguntas frecuentes</span>
+        <h2>Lo que más nos consultan.</h2>
+      </div>
+
+      <div class="preguntas">
+        <details>
+          <summary>¿Necesito internet para fichar?</summary>
+          <p>No. Si el teléfono no tiene conexión, la fichada se guarda y se envía sola cuando vuelve la señal.</p>
+        </details>
+        <details>
+          <summary>¿La app sigue a mis empleados todo el día?</summary>
+          <p>No. La ubicación se toma una sola vez, en el momento en que la persona registra la entrada o la salida, para verificar que esté dentro de una ubicación autorizada por la empresa. No hay seguimiento continuo ni en segundo plano.</p>
+        </details>
+        <details>
+          <summary>¿Cómo ingresan los empleados?</summary>
+          <p>Con su DNI. El administrador los da de alta desde la app (o desde la web, en Enterprise) y cada persona ficha desde su propio teléfono Android.</p>
+        </details>
+        <details>
+          <summary>¿Qué pasa cuando termina la prueba?</summary>
+          <p>La información de tu empresa no se borra al vencer la prueba. Para seguir usando ChronoLab, contratás un plan y continuás donde estabas.</p>
+        </details>
+        <details>
+          <summary>¿Cómo contrato o cambio de plan?</summary>
+          <p>Escribinos por correo o WhatsApp. La contratación y el pago se hacen fuera de la app, y el cambio de plan lo aplicamos nosotros.</p>
+        </details>
+        <details>
+          <summary>¿Qué pasa con los datos personales?</summary>
+          <p>Cada empresa ve solo su propia información. Podés leer la <a href="privacidad.html">política de privacidad</a> y cómo <a href="eliminacion-datos.html">solicitar la eliminación de datos</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" id="contacto" style="padding-top: 0;">
+    <div class="contenedor">
+      <div class="contacto">
+        <div>
+          <span class="etiqueta">Contacto</span>
+          <h2>¿Querés verlo funcionando en tu empresa?</h2>
+          <p>Contanos cuántas personas trabajan y cómo se organizan. Te ayudamos a configurar la prueba y a elegir el plan.</p>
+        </div>
+        <div class="canales">
+          <a class="canal" href="https://play.google.com/store/apps/details?id=com.chronolab.app" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 2.8v18.4c0 .5.5.8 1 .6l15.4-8.6c.5-.3.5-1 0-1.3L5 3.1c-.5-.2-1 .1-1 .7z"/></svg>
+            <span><small>Descargar</small>ChronoLab en Google Play</span>
+          </a>
+          <a class="canal" href="https://wa.me/5491138512705?text=Hola%20WebArte-Tech%2C%20quisiera%20consultar%20por%20ChronoLab." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.4L3 21l2.1-5.3A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            <span><small>WhatsApp</small>Escribinos</span>
+          </a>
+          <a class="canal" href="mailto:webarte.tech@gmail.com?subject=Consulta%20ChronoLab">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            <span><small>Correo</small>webarte.tech@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
 </main>
 
-<footer>
-  ChronoLab · WebArte-Tech · 2026
+<footer class="pie">
+  <div class="contenedor">
+    <span>ChronoLab · Desarrollado por <a href="https://webartetech.com/">WebArte-Tech</a> · Argentina</span>
+    <nav aria-label="Legales">
+      <a href="planes.html">Planes</a>
+      <a href="privacidad.html">Política de privacidad</a>
+      <a href="eliminacion-datos.html">Eliminación de datos</a>
+    </nav>
+  </div>
 </footer>
 
 </body>
