@@ -195,6 +195,20 @@ img { max-width: 100%; height: auto; display: block; }
   padding: 3px 10px;
 }
 
+/* ---------- Video ---------- */
+.video { display: grid; grid-template-columns: 1fr auto; gap: 48px; align-items: center; }
+.video .seccion-titulo { margin-bottom: 0; }
+.video-marco {
+  width: 300px;
+  aspect-ratio: 9 / 16;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid var(--borde);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+  background: #000;
+}
+.video-marco iframe { width: 100%; height: 100%; border: 0; display: block; }
+
 /* ---------- Planes ---------- */
 .planes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: stretch; }
 .plan {
@@ -328,6 +342,7 @@ img { max-width: 100%; height: auto; display: block; }
   .rejilla-2 { grid-template-columns: 1fr; }
   .franja { grid-template-columns: repeat(2, 1fr); }
   .contacto { grid-template-columns: 1fr; padding: 28px; }
+  .video { grid-template-columns: 1fr; justify-items: center; }
   .menu { display: none; }
   .barra .boton { margin-left: auto; }
 }
